@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+/* header */
+
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    margin: 0px 198px;
+    padding-bottom: 76px;
+}
+
+/* navbar */
+.brand{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-style: italic;
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+
+    border: 0.001px solid rgba(245, 245, 245, 0.11);
+    border-radius: 45px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-family: Inter;
+}
+
+.btn-nav{
+    background-color: rgb(230, 83, 60);
+    border-radius: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1.125rem;
+    padding: 8px 20px;
+}
+
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 47px;
+    font-size: 1.125rem;
+}
+
+
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+/* body */
+
+.body-color {
+    background-color: black;
+    color: white;
+}
+
+/* banner */
+
+.miama{
+    font-family: miama;
+
+}
+.btn-download{
+    height: 50px;
+    width: 210px;
+    border-radius: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 600;
+    border: 0.01px solid white;
+    background-color: unset;
+}
+
+.btn-join{
+    height: 50px;
+    width: 210px;
+    border-radius: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 600;
+    background-color: rgb(230, 83, 60);
+    margin-right: 10px;
+
+}
+
+.banner{
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 580px;
+    margin-bottom: 20px;
+}
+
+.banner-content h1{
+    font-size: 75px;
+    line-height: 120%;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.banner-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 25px;
+
+}
+
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
