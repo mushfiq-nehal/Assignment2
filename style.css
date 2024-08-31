@@ -192,6 +192,58 @@ main{
 }
 
 
+/* run section  */
+
+.run{
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+    height: 330px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 60px;
+}
+.run img{
+    border-radius: 18px;
+    width: 33.33%;
+    height: 100%;
+    
+}
+.run-text{
+    color: rgb(255, 255, 255);
+    width: 35%;
+}
+.run-text>h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+.run-text>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.run-join{
+    height: 50px;
+    width: 210px;
+    border-radius: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 600;
+    background-color: rgb(230, 83, 60);
+    margin-right: 10px;
+}
 
 
 
