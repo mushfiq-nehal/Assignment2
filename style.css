@@ -24,6 +24,10 @@ header{
     align-items: center;
 }
 
+.hamburger-menu{
+    display: none;
+}
+
 .nav-links{
 
     border: 0.001px solid rgba(245, 245, 245, 0.11);
@@ -197,14 +201,13 @@ main{
 .run{
     display: flex;
     justify-content: space-between;
-    width: 1060px;
+    width: 100%;
     height: 330px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
     margin: 0 auto;
     padding: 40px;
     margin-top: 60px;
-    overflow: hidden;
 }
 .run img{
     border-radius: 18px;
@@ -385,3 +388,86 @@ footer{
     text-align: center;
 }
 
+
+/* Responsive section */
+
+@media (max-width: 576px){
+
+
+.nav-links{
+    display: none;
+}    
+
+.hamburger-menu {
+    width: 30px; 
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.hamburger-menu .bar {
+    height: 4px;
+    width: 100%; 
+    background-color: white; 
+    border-radius: 2px; 
+}
+
+.banner{
+    flex-direction: column;
+}
+
+.banner-btn{
+    display: flex;
+}
+
+header{
+    margin: auto;
+}
+
+main{
+    margin: auto;
+}
+
+footer{
+    padding-left: 20px;
+}
+
+.copyright{
+    margin: auto;
+}
+
+.run{
+    flex-direction: column;
+    height: 660px;
+    padding: 0;
+    gap: 30px;
+}
+
+.run img{
+    width: 90%;
+    height: 50%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.run-text{
+    width: 90%;
+    padding-left: 20px;
+}
+
+.circles{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.meet-img{
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.footer-section{
+    flex-direction: column;
+}
+
+}
